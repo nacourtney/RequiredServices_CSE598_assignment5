@@ -66,7 +66,7 @@ namespace requiredServicesWCF
         {
             Dictionary<string, int> englishDictionary = new Dictionary<string, int>();
             using (StreamReader sr =
-                new StreamReader(@"C:\Users\Nikki Courtney\Desktop\RequiredServices\TopTenWords\DictionaryFile\enDictionary.txt"))
+                new StreamReader(@"C:\Users\Nikki Courtney\Downloads\RequiredServices_CSE598_assignment5\RequiredServices_CSE598_assignment5\requiredServicesWCF\DictionaryFile\enDictionary.txt"))
             {
                 string line;
                 while ((line = sr.ReadLine()) != null)
